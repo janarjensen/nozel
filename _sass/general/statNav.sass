@@ -1,0 +1,35 @@
+.statNavContainer
+  position: fixed
+  left: 20px
+  top: 20px
+  min-width: 30px
+  margin-right: 20px
+  z-index: 30
+
+  .loenzEye
+    &:hover
+      cursor: pointer
+
+  #statNav
+    background-color: rgba(255,255,255,0.8)
+    border: 2px solid black
+    border-radius: 15px
+    min-height: 26px
+    line-height: 30px
+    margin-right: 20px
+    transition: 1s
+    position: fixed
+    top: 20px
+
+    nav
+      justify-content: flex-start
+      a
+        margin: 0px 10px
+
+  .clicked
+    left: 70px
+    opacity: 1
+
+  .unClicked
+    left: -100%
+    opacity: 0

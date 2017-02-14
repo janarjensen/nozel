@@ -1,0 +1,57 @@
+#landing
+  background-image: url(../img/LOENZ-home-page-header-background.jpg)
+  background-position: center
+  background-size: cover
+  padding-top: 12vh
+  min-height: 98vh
+
+  #landinglogo
+    width: 60vw
+    max-width: 400px
+    margin: 5% auto
+    background-color: rgba(255,255,255,0.3)
+    padding: 1%
+    box-shadow: 0 0 20px rgba(255,255,255,0.7)
+    border-radius: 3px
+
+    svg
+      filter: drop-shadow(0px 0px 14px rgba(255,255,255,1))
+
+  .goggle
+    margin: 3%
+    .fadeCard
+      display: flex
+      flex-direction: column
+      width: 100%
+      background-color: rgba(255,255,255,0.0)
+      flex-grow: grow
+      &:hover
+        cursor: pointer
+        background-color: rgba(255,255,255,0.9)
+        transition: 200ms
+        .cardInfo
+          opacity: 1
+          transition: 300ms
+        .cardTitle
+          background-color: rgba(0,0,0,1)
+
+
+      .cardInfo
+        justify-content: center
+        margin-bottom: 0
+        opacity: 0
+        padding: 15% 20px
+        box-shadow: 0 0 10px white
+        flex-grow: 1
+        h3
+          margin: 0 auto
+
+      .cardTitle
+        background-color: rgba(0,0,0,0.3)
+        padding: 2px
+        box-shadow: 0 0 10px black
+        z-index: 2
+      h2
+        text-align: center
+        color: white
+        text-transform: uppercase

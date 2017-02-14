@@ -1,0 +1,33 @@
+html
+  width: 100%
+  \::-webkit-scrollbar
+    display: none
+body
+  margin: 0
+  padding: 0
+
+// Font
+h1,h2,h3,h4,h5,h6,p,a
+  //font-family:  'Open Sans', sans-serif
+  font-family: 'Quicksand', sans-serif
+
+nav
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-around
+  a
+    margin: 10px
+    color: black
+
+a
+  color: $loenzGreen
+  font-weight: bolder
+  text-transform: uppercase
+  &:hover
+    color: $loenzHoverColor
+    text-decoration: none
+
+
+section
+  padding: 10vh 0
