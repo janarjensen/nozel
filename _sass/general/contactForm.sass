@@ -1,0 +1,65 @@
+#contactForm
+  background-color: black
+
+  h3
+    text-transform: uppercase
+    margin-top: -5vh
+    svg
+      height: 1em
+
+  .padding10px
+    padding-top: 0px
+    padding-bottom: 0px
+
+  .contactFormCard
+    padding: 0px 20px
+    display: flex
+    flex-direction: column
+    .nameEmail, .message
+      float: left
+
+    textarea, input
+      width: 100%
+      box-sizing: border-box
+      border: 2px solid white
+      border-radius: $loenzBorderRadius
+      background-color: black
+      margin: 10px 0
+      color: $loenzGreen
+
+    textarea
+      height: 160px
+      padding: 9px 10px
+      resize: vertical
+      &:focus
+        background-color: white
+        border: 2px solid white
+        outline: 0
+        color: black
+
+    input
+      height: 40px
+      padding: 0 10px
+      &:focus
+        background-color: white
+        border: 2px solid white
+        outline: 0
+        color: black
+    \::-webkit-input-placeholder
+      color: white
+    \:-moz-placeholder
+      color: white
+    \::-moz-placeholder
+      color: white
+    \:-ms-input-placeholder
+      color: white
+
+  .sendButtonContainer
+    [type="submit"]
+      background-color: black
+      border: 2px solid $loenzGreen
+      color: white
+      text-align: left
+      &:hover
+        border: 2px solid white
+        color: #08960d

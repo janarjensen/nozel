@@ -1,0 +1,54 @@
+#whatYouCanDo
+  h2
+    color: #666666
+
+  p
+    color: #666666
+    text-align: center
+
+  .graphCard
+    margin: 0 auto
+    padding: 10px
+    max-width: 450px
+
+    .graph
+      position: relative
+
+      .infoIcon
+        border: 5px solid $loenzText
+        border-radius: 100%
+        height: 50px
+        width: 50px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translateX(-50%) translateY(-50%)
+        box-shadow: 0px 0px 10px $loenzText
+        opacity: 1
+        background-color: rgba(255, 255, 255, 0.9)
+        transition: 8s
+        transition-delay: 10s
+
+        p
+          color: $loenzText
+          font-size: 25px
+          font-weight: bolder
+          line-height: 40px
+
+    .graphInfo
+      max-height: 0px
+      background-color: white
+      overflow: hidden
+      transition: 1.5s
+      p
+        color: $loenzText
+        padding: 10px
+
+    &:hover .graphInfo
+      max-height: 5000px
+      transition: 3s
+
+    &:hover .graph
+      .infoIcon
+        opacity: 0
+        transition: 1s

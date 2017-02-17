@@ -10,6 +10,20 @@ body
 h1,h2,h3,h4,h5,h6,p,a
   //font-family:  'Open Sans', sans-serif
   font-family: 'Quicksand', sans-serif
+  color: $loenzText
+  text-align: center
+
+h2,h3
+  margin: 40px 0px
+  font-size: 2em
+
+h3
+  color: white
+  font-weight: bold
+
+p, span
+  font-size: 1.25em
+
 
 nav
   display: flex
@@ -18,7 +32,9 @@ nav
   justify-content: space-around
   a
     margin: 10px
-    color: black
+    color: $loenzText
+    &:hover
+      color: $loenzHoverColor
 
 a
   color: $loenzGreen
@@ -31,3 +47,15 @@ a
 
 section
   padding: 10vh 0
+
+
+// sets margin  to all cards
+.padding10px
+  padding: 10px
+
+.zoom
+  transition: 300ms
+  &:hover
+    transform: scale(1.07)
+    transition: 300ms
+    cursor: zoom-in

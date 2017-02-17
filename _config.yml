@@ -1,9 +1,9 @@
 # site settings
 title: LOENZ
 email: info@loenz.nl
-description: LOENZ is specialised in organic computer-vision
-baseurl: ""
-url: "http://localhost:"
+description: LOENZ is specialised in natural computer-vision
+# baseurl: ""
+# url: "http://localhost:"
 
 # build settings
 markdown: kramdown
