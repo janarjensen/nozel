@@ -20,6 +20,11 @@ $(function() {
 });
 
 // toggle class of statNav
-$(".loenzEye").on("click", function(){
+$(".loenzEye").click(function(){
   $("#statNav").toggleClass("clicked unClicked");
 });
+
+// // toggle class of statNav
+// $(".loenzEye").on("click", function(){
+//   $("#statNav").toggleClass("clicked unClicked");
+// });
