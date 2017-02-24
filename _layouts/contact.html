@@ -6,6 +6,18 @@
 {{ content }}
 
 {% include general/copyright.html %}
+<!-- Pulling in jQuery (online repository) -->
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
-<!-- Js pullins at bottom of body -->
-{% include general/js-pullins.html %}
+<!-- Pulling in matchHeight (online repository) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js" integrity="sha256-a/H26zcixe1svu2fYax7ANJMSzGYyJNI52hKKYJTar8=" crossorigin="anonymous"></script>
+
+<!-- pulling in bootstrap javascript (online repository) needs to be aftyer jQuery pull in -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- pulling in google maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwGAP5jWSNldaj69T4VVU-30GWuT7xGUU"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/googleMaps.js"></script>
+
+<!-- pulling in AJ animations -->
+<script type="text/javascript" src="{{site.baseurl}}/js/animations.js"></script>
